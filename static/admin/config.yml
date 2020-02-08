@@ -9,9 +9,9 @@ media_folder: "static/images"
 public_folder: "images"
 
 collections:
-  - name: "coding"
-    label: "Coding"
-    folder: "content/coding"
+  - name: "post"
+    label: "Post"
+    folder: "content/post"
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{hour}}-{{minute}}'
     identifier_field: date
